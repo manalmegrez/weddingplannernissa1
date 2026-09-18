@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Planner Algeria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="brand"><span class="brand-mark">♡</span><span>Wedding Planner <b>Algeria</b></span></div>
+  <nav><a href="#accueil">Accueil</a><a href="#categories">Catégories</a><a href="#prestataires">Prestataires</a></nav>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="hero-content">
+    <p class="eyebrow">VOTRE MARIAGE, PARTOUT EN ALGÉRIE</p>
+    <h1>Le bon prestataire,<br><em>au bon endroit.</em></h1>
+    <p class="hero-text">Choisissez votre wilaya et découvrez les prestataires de mariage disponibles autour de vous.</p>
+    <div class="location-box">
+      <label for="wilayaSelect">Où aura lieu votre mariage ?</label>
+      <div class="select-wrap">
+        <span>📍</span>
+        <select id="wilayaSelect">
+          <option value="">Choisir une wilaya...</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="section-heading">
+    <div><p class="eyebrow">EXPLOREZ</p><h2>Tout pour votre mariage</h2></div>
+    <p class="muted">Sélectionnez une catégorie après avoir choisi votre wilaya.</p>
+  </div>
+  <div class="categories" id="categoryGrid"></div>
+</section>
+
+<section class="section results-section" id="prestataires">
+  <div class="results-top">
+    <div><p class="eyebrow">CATALOGUE</p><h2 id="resultsTitle">Prestataires</h2></div>
+    <div class="search-wrap"><input id="searchInput" type="search" placeholder="Rechercher un prestataire..."></div>
+  </div>
+  <p class="notice" id="selectionNotice">Choisissez une wilaya et une catégorie pour afficher les prestataires.</p>
+  <div class="providers" id="providerGrid"></div>
+</section>
+</main>
+
+<footer>
+  <div class="brand"><span class="brand-mark">♡</span><span>Wedding Planner <b>Algeria</b></span></div>
+  <p>Catalogue de découverte des prestataires de mariage en Algérie.</p>
+  <small>Les informations de démonstration doivent être vérifiées avant publication commerciale.</small>
+</footer>
+
+<div class="modal" id="providerModal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="close" id="closeModal" aria-label="Fermer">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
