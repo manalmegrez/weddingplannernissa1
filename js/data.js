@@ -64,7 +64,7 @@ const CATEGORIES = [
   {id:"salle",name:"Salles des fêtes",icon:"🏛️",description:"Salles et espaces pour célébrer votre grand jour."},
   {id:"beaute",name:"Coiffure & Maquillage",icon:"💄",description:"Coiffeuses, maquilleuses et beauté de la mariée."},
   {id:"tenue",name:"Location de tenues",icon:"👗",description:"Robes, caftans, karakous et tenues traditionnelles."},
-  {id:"voiture",name:"Location de voitures",icon:"🚘",description:"Voitures pour cortège et transport des mariés."},
+  {id:"voiture",name:"Location de voitures & Cheval",icon:"🚘",description:"Voitures pour cortège et transport des mariés."},
   {id:"traiteur",name:"Traiteur & Gâteaux",icon:"🍰",description:"Menus, pâtisseries et gâteaux de mariage."},
   {id:"deco",name:"Décoration florale",icon:"🌸",description:"Décoration, fleurs, tables et ambiance."},
   {id:"dj",name:"DJ & Animation",icon:"🎶",description:"DJ, musique, animation et sonorisation."}
