@@ -82,10 +82,10 @@ const DEMO_PROVIDERS = [
 
   {id:2,wilaya:"Tlemcen",category:"photo",name:"CHOAYB Lab Photo",rating:4.7,reviews:7,address:"Mansourah, Tlemcen",phone:"+213 560 00 00 58",social:"",description:"Studio de photographie proposant des services de photographie, notamment pour les mariages."},
 
-  {id:3,wilaya:"Tlemcen",category:"photo",name:"Photographe pour mariage",rating:null,reviews:null,address:"Tlemcen",phone:"+213 772 58 90 73",social:"",description:"Photographe spécialisé dans les reportages de mariage et les événements."},
+  {id:3,wilaya:"Tlemcen",category:"photo",name:"Studio Benabadji",rating:4.5,reviews:10,address:"Tlemcen",phone:"+213 661652519",social:"studio_benabadji",description:"Photographe spécialisé dans les reportages de mariage et les événements."},
 
-  {id:4,wilaya:"Tlemcen",category:"photo",name:"Sister Wedding Photography",rating:null,reviews:null,address:"Tlemcen / Algérie",phone:"",social:"",description:"Sister Wedding Photography, spécialisée dans la photographie professionnelle et événementielle."},
-
+  {id:4,wilaya:"Tlemcen",category:"photo",name:"Sisters Wedding Photography",rating:4.5,reviews:null,address:"Tlemcen / Algérie",phone:"+2130555838240",social:"sisters_wedding_photography",description:"Sister Wedding Photography, spécialisée dans la photographie professionnelle et événementielle."},
+   {id:4,wilaya:"Tlemcen",category:"photo",name:"Studio MAGDEV",rating:4.5,reviews:12,address:"Meghnia ,Tlemcen / Algérie",phone:"+2130555838240",social:"sisters_wedding_photography",description:"Sister Wedding Photography, spécialisée dans la photographie professionnelle et événementielle."},
   // 🏛️ Salles des fêtes
   {id:23,wilaya:"Meghnia",category:"salle",name:"Salle des Fêtes Mansouri",rating:4,reviews:null,address:"meghnia",phone:"+213563472610",social:"Instagram/salle_des_fetes_mansouri",description:"Salle des fêtes destinée à l'organisation de mariages et événements."},
   {id:5,wilaya:"Tlemcen",category:"salle",name:"Belle Salle Tlemcen",rating:4.7,reviews:35,address:"Tlemcen",phone:"+213 555 00 00 02",social:"Facebook",description:"Salle de fêtes. Exemple de fiche de démonstration."},
