@@ -64,7 +64,7 @@ const CATEGORIES = [
   {id:"salle",name:"Salles des fêtes",icon:"🏛️",description:"Salles et espaces pour célébrer votre grand jour."},
   {id:"beaute",name:"Coiffure & Maquillage",icon:"💄",description:"Coiffeuses, maquilleuses et beauté de la mariée."},
   {id:"tenue",name:"Location de tenues",icon:"👗",description:"Robes, caftans, karakous et tenues traditionnelles."},
-  {id:"voiture",name:"Location de voitures & Cheval",icon:"🚘",description:"Voitures pour cortège et transport des mariés."},
+  {id:"voiture",name:"Location des voitures & Chevaux",icon:"🚘",description:"Voitures pour cortège et transport des mariés."},
   {id:"traiteur",name:"Traiteur & Gâteaux",icon:"🍰",description:"Menus, pâtisseries et gâteaux de mariage."},
   {id:"deco",name:"Décoration florale",icon:"🌸",description:"Décoration, fleurs, tables et ambiance."},
   {id:"dj",name:"DJ & Animation",icon:"🎶",description:"DJ, musique, animation et sonorisation."}
@@ -135,8 +135,13 @@ const DEMO_PROVIDERS = [
 
   // 👗 Tenues
   {id:16,wilaya:"Oran",category:"tenue",name:"بوتيك لينا",rating:4.0,reviews:1,address:"Oran",phone:"",social:"",description:"Boutique de tenues référencée comme prestataire de mariage à Oran."},
-
-
+  //location des voitures 
+  {id:28,wilaya:"Tlemcen",category:"voiture",name:"YADI CAR Tlemcen",rating:4.8,reviews:584,address:"28 Rue Aïn Nedjar, Bd Pasteur, Tlemcen 13000",phone:"+213 661 28 75 11",social:"",description:"Agence de location de voitures à Tlemcen. Location de véhicules pour déplacements et événements."},
+//location
+{id:29,wilaya:"Oran",category:"voiture",name:"YadiCar car rental Oran",rating:4.8,reviews:322,address:"Rue Med Khemisti, Oran",phone:"+213 540 03 05 43",social:"",description:"Agence de location de voitures à Oran."},
+{id:30,wilaya:"Oran",category:"voiture",name:"LOCAFLEX",rating:5.0,reviews:34,address:"Oran",phone:"+213 560 16 38 23",social:"",description:"Agence de location de voitures à Oran."},
+{id:31,wilaya:"Oran",category:"voiture",name:"Go Oran Location",rating:4.7,reviews:40,address:"Oran",phone:"+213 549 01 25 36",social:"",description:"Service de location de voitures à Oran."},
+{id:32,wilaya:"Oran",category:"voiture",name:"Location voiture Oran Didano",rating:4.5,reviews:177,address:"Rue Ouahouah Madani, Oran",phone:"+213 770 36 64 05",social:"",description:"Agence de location de voitures à Oran."},
   // =====================================================
   // 📍 ALGER
   // =====================================================
@@ -150,14 +155,20 @@ const DEMO_PROVIDERS = [
   // 💄 Beauté
   {id:19,wilaya:"Alger",category:"beaute",name:"صالون وردة",rating:4.7,reviews:3,address:"Alger",phone:"",social:"",description:"Salon de beauté référencé comme prestataire de mariage à Alger."},
   {id:22,wilaya:"Alger",category:"tenue",name:"Machta de Luxe",rating:4.4,reviews:32,address:"Café Chergui, en face de la station du tramway, 1er étage, Bordj El Bahri, Alger",phone:"+213 561 30 72 27 / +213 557 47 09 72",social:"Facebook / Instagram",description:"Location de robes traditionnelles et robes blanches, service d'habilleuse professionnelle, bijoux de luxe, retouches maquillage et coiffure, ainsi que repassage et entretien des tenues."},
-
+   //location
+   {id:33,wilaya:"Alger",category:"voiture",name:"ARC Location de voiture Aéroport Alger",rating:4.7,reviews:206,address:"12 Cité des Martyrs, Dar El Beïda, Alger",phone:"+213 561 54 28 38",social:"",description:"Agence de location de voitures avec service à l'aéroport d'Alger."},
+{id:34,wilaya:"Alger",category:"voiture",name:"Safar El Amir",rating:4.8,reviews:573,address:"Entrée du centre commercial City Center, Les Bananiers, Alger",phone:"+213 560 65 93 09",social:"",description:"Agence de location de voitures à Alger avec prise en charge possible à l'aéroport Houari Boumédiène."},
   // =====================================================
   // 📍 SÉTIF
   // =====================================================
 
   // 💄 Beauté
   {id:20,wilaya:"Sétif",category:"beaute",name:"Maison Beauté Sétif",rating:4.8,reviews:31,address:"Sétif",phone:"+213 555 00 00 07",social:"Facebook",description:"Beauté et préparation de la mariée. Données de démonstration."},
-
+  {id:35,wilaya:"Sétif",category:"voiture",name:"Location de voitures 2AY",rating:4.8,reviews:113,address:"Travaux El-Maabouda, Sétif",phone:"+213 541 85 66 51",social:"",description:"Agence de location de voitures située à Sétif."},
+  {id:36,wilaya:"Sétif",category:"voiture",name:"Location voiture Sétif YACINE Guettaf",rating:4.3,reviews:23,address:"Sétif",phone:"+213 671 28 08 91",social:"",description:"Service de location de voitures à Sétif."},
+  {id:39,wilaya:"Sétif",category:"beaute",name:"Coiffeuse Maria",rating:4.5,reviews:2,address:"Sétif",phone:"+213 772 71 06 52",social:"",description:"Salon de coiffure et beauté à Sétif."},
+{id:40,wilaya:"Sétif",category:"beaute",name:"صالون بيرلا",rating:4.0,reviews:1,address:"Sétif",phone:"",social:"",description:"Salon de beauté référencé comme prestataire mariage à Sétif."},
+{id:41,wilaya:"Sétif",category:"beaute",name:"Maabouda",rating:4.7,reviews:3,address:"Maabouda, Sétif",phone:"",social:"",description:"Salon de coiffure et beauté à Sétif, notamment pour la préparation et la coiffure des occasions spéciales."},
 
   // =====================================================
   // 📍 CONSTANTINE
