@@ -142,6 +142,15 @@ const DEMO_PROVIDERS = [
 {id:30,wilaya:"Oran",category:"voiture",name:"LOCAFLEX",rating:5.0,reviews:34,address:"Oran",phone:"+213 560 16 38 23",social:"",description:"Agence de location de voitures à Oran."},
 {id:31,wilaya:"Oran",category:"voiture",name:"Go Oran Location",rating:4.7,reviews:40,address:"Oran",phone:"+213 549 01 25 36",social:"",description:"Service de location de voitures à Oran."},
 {id:32,wilaya:"Oran",category:"voiture",name:"Location voiture Oran Didano",rating:4.5,reviews:177,address:"Rue Ouahouah Madani, Oran",phone:"+213 770 36 64 05",social:"",description:"Agence de location de voitures à Oran."},
+{id:42,wilaya:"Oran",category:"decoration",name:"Sweet Event's",rating:null,reviews:null,address:"28 Hai Emir AEK Traverssa, Bir El Djir, Oran",phone:"",social:"",description:"Décoration de mariage avec bouquets de fleurs, décoration de salle, voiture des mariés, centres de table, scène et accessoires de réception."},
+{id:43,wilaya:"Oran",category:"decoration",name:"Bilo Fleuriste",rating:null,reviews:null,address:"Oran",phone:"",social:"",description:"Décoration florale pour événements, bouquets, voiture des mariés et décoration de salle."},
+{id:44,wilaya:"Oran",category:"decoration",name:"Narcisse",rating:null,reviews:null,address:"Oran",phone:"",social:"",description:"Prestataire de décoration florale et bouquets pour événements et mariages."},
+{id:45,wilaya:"Oran",category:"decoration",name:"Lina Planner",rating:null,reviews:null,address:"Oran",phone:"",social:"",description:"Décoration de mariage avec bouquets, décoration de voiture des mariés et décoration de salle."},
+{id:46,wilaya:"Oran",category:"fleur",name:"Fleuriste C' Tout Vert",rating:4.8,reviews:50,address:"Bir El Djir, Oran",phone:"+213 784 42 81 69",social:"",description:"Fleuriste à Bir El Djir proposant des compositions et services floraux."},
+{id:47,wilaya:"Oran",category:"fleur",name:"Fleuriste 31",rating:5.0,reviews:28,address:"Oran",phone:"+213 781 55 46 82",social:"",description:"Fleuriste à Oran."},
+{id:48,wilaya:"Oran",category:"gateau",name:"MANGO DZ",rating:null,reviews:null,address:"32 Rue Commandant Ferradj, Aïn El Turk, Oran",phone:"+213 540 73 57 43",social:"Instagram @mango._.dz",description:"Cake design, wedding cakes, layer cakes, pièces montées et gâteaux traditionnels personnalisés pour mariages et événements."},
+{id:49,wilaya:"Oran",category:"gateau",name:"benammar cake boutique",rating:4.4,reviews:49,address:"Résidence Hasnaoui, Oran",phone:"+213 541 46 92 07",social:"",description:"Pâtisserie et créations sucrées à Oran."},
+{id:50,wilaya:"Oran",category:"gateau",name:"LA ROSE SUCRÉE ORAN",rating:4.6,reviews:7,address:"Bir El Djir, Oran",phone:"+213 542 49 50 68",social:"",description:"Pâtisserie et créations sucrées à Bir El Djir."},
   // =====================================================
   // 📍 ALGER
   // =====================================================
@@ -157,7 +166,13 @@ const DEMO_PROVIDERS = [
   {id:22,wilaya:"Alger",category:"tenue",name:"Machta de Luxe",rating:4.4,reviews:32,address:"Café Chergui, en face de la station du tramway, 1er étage, Bordj El Bahri, Alger",phone:"+213 561 30 72 27 / +213 557 47 09 72",social:"Facebook / Instagram",description:"Location de robes traditionnelles et robes blanches, service d'habilleuse professionnelle, bijoux de luxe, retouches maquillage et coiffure, ainsi que repassage et entretien des tenues."},
    //location
    {id:33,wilaya:"Alger",category:"voiture",name:"ARC Location de voiture Aéroport Alger",rating:4.7,reviews:206,address:"12 Cité des Martyrs, Dar El Beïda, Alger",phone:"+213 561 54 28 38",social:"",description:"Agence de location de voitures avec service à l'aéroport d'Alger."},
-{id:34,wilaya:"Alger",category:"voiture",name:"Safar El Amir",rating:4.8,reviews:573,address:"Entrée du centre commercial City Center, Les Bananiers, Alger",phone:"+213 560 65 93 09",social:"",description:"Agence de location de voitures à Alger avec prise en charge possible à l'aéroport Houari Boumédiène."},
+   {id:34,wilaya:"Alger",category:"voiture",name:"Safar El Amir",rating:4.8,reviews:573,address:"Entrée du centre commercial City Center, Les Bananiers, Alger",phone:"+213 560 65 93 09",social:"",description:"Agence de location de voitures à Alger avec prise en charge possible à l'aéroport Houari Boumédiène."},
+    {id:51,wilaya:"Alger",category:"decoration",name:"Zhor Event",rating:null,reviews:null,address:"Alger",phone:"",social:"",description:"Décoration de mariage, créations florales, art de la table et mises en scène personnalisées."},
+{id:52,wilaya:"Alger",category:"decoration",name:"Frahkoum",rating:null,reviews:null,address:"Sidi M'Hamed, Alger",phone:"",social:"",description:"Prestataire événementiel proposant bouquets de fleurs et décoration de salle."},
+{id:53,wilaya:"Alger",category:"decoration",name:"ZT Events",rating:null,reviews:null,address:"Bouzareah, Alger",phone:"",social:"",description:"Organisation d'événements avec décoration de salle, bouquets et décoration de voiture des mariés."},
+{id:54,wilaya:"Alger",category:"gateau",name:"Sofi's Cake Design",rating:4.0,reviews:4,address:"Djasr Kasentina, Alger",phone:"+213 792 94 90 80",social:"",description:"Cake design et pâtisserie, avec service de wedding bakery."},
+{id:55,wilaya:"Alger",category:"gateau",name:"حلويات ومرطبات",rating:4.2,reviews:54,address:"Cité Braïdia, Réghaïa, Alger",phone:"+213 551 09 90 35",social:"",description:"Pâtisserie et wedding bakery à Réghaïa."},
+{id:56,wilaya:"Alger",category:"gateau",name:"Coin d'Alma",rating:4.4,reviews:122,address:"21 Rue Ahmed Ouaked, Dely Ibrahim, Alger",phone:"+213 783 00 63 71",social:"",description:"Pâtisserie proposant des créations sucrées et desserts à Dely Ibrahim."},
   // =====================================================
   // 📍 SÉTIF
   // =====================================================
