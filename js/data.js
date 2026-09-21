@@ -90,15 +90,15 @@ const DEMO_PROVIDERS = [
   {id:23,wilaya:"Meghnia",category:"salle",name:"Salle des Fêtes Mansouri",rating:4,reviews:null,address:"meghnia",phone:"+213563472610",social:"Instagram/salle_des_fetes_mansouri",description:"Salle des fêtes destinée à l'organisation de mariages et événements."},
   {id:5,wilaya:"Tlemcen",category:"salle",name:"Belle Salle Tlemcen",rating:4.7,reviews:35,address:"Tlemcen",phone:"+213 555 00 00 02",social:"Facebook",description:"Salle de fêtes. Exemple de fiche de démonstration."},
 
-  {id:6,wilaya:"Tlemcen",category:"salle",name:"Salle des Fêtes Afrah Tlemcen",rating:4.0,reviews:46,address:"Tlemcen",phone:"",social:"",description:"Salle des fêtes située à Tlemcen."},
+  {id:6,wilaya:"Tlemcen",category:"salle",name:"Salle des Fêtes Afrah Tlemcen",rating:4.0,reviews:46,address:"Tlemcen",phone:"0770704905",social:"",description:"Salle des fêtes située à Tlemcen."},
 
-  {id:7,wilaya:"Tlemcen",category:"salle",name:"Salle des fêtes Royal Afrah",rating:4.2,reviews:9,address:"Rue Ibn Khaldoun, Tlemcen",phone:"+213 550 61 06 53",social:"",description:"Salle des fêtes située à Tlemcen."},
+  {id:7,wilaya:"Tlemcen",category:"salle",name:"Salle des fêtes Royal Afrah",rating:4.2,reviews:9,address:"Rue Ibn Khaldoun, Tlemcen",phone:"+213 550 61 06 53",social:"Salle des fêtes Royal",description:"Salle des fêtes située à Tlemcen."},
 
   // 💄 Beauté
-  {id:8,wilaya:"Tlemcen",category:"beaute",name:"Beauty Bride Tlemcen",rating:4.9,reviews:51,address:"Tlemcen",phone:"+213 555 00 00 03",social:"Instagram",description:"Coiffure et maquillage de mariée. Exemple de fiche de démonstration."},
+  {id:8,wilaya:"Tlemcen",category:"beaute",name:"Maison de beaute ikram ",rating:4.9,reviews:51,address:"Tlemcen",phone:"0775413234",social:"maison.de.beaute.ikram13",description:"Coiffure et maquillage de mariée. Exemple de fiche de démonstration."},
 
   // 👗 Tenues
-  {id:9,wilaya:"Tlemcen",category:"tenue",name:"Maison des Tenues",rating:4.6,reviews:27,address:"Tlemcen",phone:"+213 555 00 00 04",social:"Instagram",description:"Location de tenues traditionnelles. Exemple de fiche de démonstration."},
+  {id:9,wilaya:"Tlemcen",category:"tenue",name:"CN Dress",rating:4.6,reviews:27,address:"Tlemcen",phone:"+213 549681329",social:"Instagram:cn_dress",description:"Location de tenues traditionnelles. Exemple de fiche de démonstration."},
 
   {id:10,wilaya:"Tlemcen",category:"tenue",name:"دار زهرة للأزياء",rating:5.0,reviews:1,address:"Tlemcen",phone:"",social:"",description:"Boutique de tenues située à Tlemcen, référencée comme prestataire de mariage et vérifiée sur Silla."},
 
@@ -106,13 +106,14 @@ const DEMO_PROVIDERS = [
 
   {id:12,wilaya:"Tlemcen",category:"tenue",name:"Location costume Tlemcen",rating:null,reviews:null,address:"Cité El Hanaa Les 400, Mansourah, Tlemcen",phone:"+213 790 88 32 56",social:"",description:"Service de location de costumes situé à Mansourah, Tlemcen."},
 
-
+  {id:57,wilaya:"Tlemcen",category:"tenue",name:"La Casa Boukli",rating:4.7,reviews:3,address:"Tlemcen",phone:"+213 560 99 70 00",social:"",description:"Boutique de vêtements située à Tlemcen. Informations de spécialisation mariage à compléter après vérification du compte officiel."},
+  {id:58,wilaya:"Tlemcen",category:"beaute",name:"Makeup by Sara",rating:4.9,reviews:18,address:"Tlemcen, Algérie",phone:"0796586261",social:"Makeup artist Tlemcen|sarra",description:"Prestataire spécialisée dans le maquillage pour mariées et événements à Tlemcen. Coordonnées et réseaux sociaux officiels à confirmer."},
   // =====================================================
   // 📍 MAGHNIA
   // =====================================================
 
   // 📸 Photographie & Vidéo
-  {id:26,wilaya:"Tlemcen",category:"photo",name:"ABH Studio",rating:null,reviews:null,address:"Tlemcen",phone:"",social:"Instagram",description:"Studio spécialisé dans la photographie et la vidéo de mariage et d'événements."},
+  {id:26,wilaya:"Tlemcen",category:"photo",name:"ABH Studio",rating:4,reviews:12,address:"Tlemcen",phone:"0773822881",social:"studio_abh13",description:"Studio spécialisé dans la photographie et la vidéo de mariage et d'événements."},
   {id:13,wilaya:"Maghnia",category:"photo",name:"Studio Photographe Z.Yassin Maghnia",rating:null,reviews:null,address:"Maghnia, Tlemcen",phone:"+213 771 66 68 63",social:"",description:"Studio de photographie pour mariages, fiançailles, anniversaires et autres événements."},
   //decoration 
    
